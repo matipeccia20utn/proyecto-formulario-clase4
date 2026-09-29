@@ -7,13 +7,15 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-
-            </ul>
-        </nav>
         <h1>Actividad Física</h1>
         <p>Hola, me llamo Matias. Te voy a hacer una breve encuesta sobre cuanta actividad fisica hay en tu vida.</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://youtu.be/bfXyJw9eCAQ">motivacion para entrenar,</a>
+                </li>
+            </ul>
+        </nav>
         <figure>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUr6GJcV240-NSkqkIBFQ6glowtyQPIXpLRWNBBmY15Q&s=10" alt="actividad ficica" width="300">
         </figure>
@@ -28,21 +30,67 @@
                     <input type="date" name="edad" required>
                     <input type="submit" value="Enviar">
 
+                    <hr style="margin: 40px;">
+
                     <fieldset>
                         <legend> ¿En una escala del 1 al 10, cómo calificarías tu nivel de actividad física?</legend>
                         <input type="range" min="0" max="10" step="1"> 
                     </fieldset>
 
-
-                    
+                    <hr style="margin: 40px;">
+                  
+                    <div>
+                      <fieldset>
+                        <legend> ¿Qué actividades físicas realizas con frecuencia? </legend>
+                        <input type="checkbox" name="actividad" > <strong>Correr</strong>
+                        <input type="checkbox" name="actividad" > <strong>Caminar</strong>
+                        <input type="checkbox" name="actividad" > <strong>Natación</strong>
+                        <input type="checkbox" name="actividad" > <strong>Levantar pesas</strong>
+                        <input type="checkbox" name="actividad" > <strong>Deportes en equipo</strong>
+                        <label for="otra"> <strong>Otra:</strong>: </label>
+                        <input type="text" name="otra" placeholder="Especifica otra actividad">
                 
+                        </fieldset>
+                    </div>
+
+                    <hr style="margin: 40px;">
+
+                    <div class="video-container">
+                       <iframe width="400" height="200" src="https://www.youtube.com/embed/edCdGNlDqAA" title="Lo que ocurre cuando COMIENZAS A HACER EJERCICIO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                       <p><strong>Esto pasa si arrancas a hacer ejercicio</strong></p>
+
+                    </div>
+
+                    <div>
+                        <fieldset>
+                        <legend> ¿Cuántas veces a la semana realizas actividad física? </legend>
+                        <input type="radio" name="frecuencia" id="1" value="1 o 2 veces"> 
+                        <label for="1">1 o 2 veces</label>
+                        <input type="radio" name="frecuencia" id="2" value="3 o 4 veces">
+                        <label for="2">3 o 4 veces</label>
+                        <input type="radio" name="frecuencia" id="3" value="5 o más veces">
+                        <label for="3">5 o más veces</label>  
+
+                    </fieldset>
+
+                    <div>
+                        <h3>que te parecio la encuesta y en que te podemos ayudar.</h3>
+                        <textarea placeholder="ingresa tu mensaje" cols="60" rows="10"></textarea>
+                    </div>
+
+                    <button>enviar</button>
+                
+                    </div>
                 </form>
             </section>
 
         </main>
-
     </header>
     <main>
+        <footer>
+            <p>&copy; mi sitio web. derechos reservados.</p>
+        </footer>
+        
 
     </main>
 </body>
